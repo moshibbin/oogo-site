@@ -125,15 +125,11 @@ function App() {
               <div className="copyright">
                 <p>
                   Copyright &copy;{" "}
-                  <a href="https://templatesjungle.com" target="_blank">
+                  <a href="#" target="_blank">
                     Oogo Media
                   </a>{" "}
                   2024.{" "}
-                  <a
-                    href="https://templatesjungle.gumroad.com/l/countdown-free-lightweight-under-construction-template"
-                    target="_blank"
-                    style={{ color: "#0043ee" }}
-                  >
+                  <a href="#" target="_blank" style={{ color: "#0043ee" }}>
                     {" "}
                     <b></b>{" "}
                   </a>

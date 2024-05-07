@@ -4,6 +4,9 @@ body {
     color: #949393;
     margin: 0;
 }
+
+ 
+
 a, button {
 transition: 0.3s all ease-out;
 }
@@ -12,7 +15,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: #0043ee;
+	color: #F9C301;
 }
 .row {
     display: flex;
@@ -90,7 +93,7 @@ input::placeholder{
     padding: 18px 30px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: #0043ee;
+    background-color: #F9C301;
     border: none;
 	cursor: pointer;
     color: #fff;
