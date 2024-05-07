@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [days, setDays] = useState<number>(0);
@@ -19,7 +19,7 @@ function App() {
       return { total, days, hours: hrs, minutes: mins, seconds: secs };
     };
 
-    const initializeClock = (id: string, endtime: Date) => {
+    const initializeClock = (endtime: Date) => {
       const updateClock = () => {
         const t = getTimeRemaining(endtime);
 
@@ -40,7 +40,7 @@ function App() {
     const deadline = new Date(
       Date.parse(new Date().toISOString()) + 28 * 24 * 60 * 60 * 1000
     );
-    initializeClock("countdown-clock", deadline);
+    initializeClock(deadline);
   }, []);
   const sideimg = "./sideimg.jpg";
 
