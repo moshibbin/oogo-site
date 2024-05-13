@@ -38,7 +38,7 @@ function App() {
     };
 
     const deadline = new Date(
-      Date.parse(new Date().toISOString()) + 28 * 24 * 60 * 60 * 1000
+      Date.parse(new Date().toISOString()) + 10 * 24 * 60 * 60 * 1000
     );
     initializeClock(deadline);
   }, []);
@@ -57,7 +57,7 @@ function App() {
 
             <div className="main-content">
               <div className="page-title">
-                <h1>We are launching soon!</h1>
+                <h1>we are currently updating our website</h1>
                 <div id="countdown-clock">
                   <div className="time">
                     <span className="days">{days}</span>
@@ -78,7 +78,7 @@ function App() {
                 </div>
               </div>
               <form id="form">
-                <p>Get notified when we launch our website</p>
+                <p>Get notified when we complete updating our website</p>
                 <div className="form-group">
                   <input
                     type="text"
