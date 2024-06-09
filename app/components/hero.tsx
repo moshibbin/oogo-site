@@ -9,7 +9,7 @@ const Hero = () => {
                         <div className="hero-two__left">
                             <div className="hero-two__content wow fadeInLeft" data-wow-delay="1200ms">
                                 <h2 className="hero-two__title wow fadeInLeft" data-wow-delay="1000ms">Elevate Online Presence Expert Digital Solutions</h2>
-                                <p className="hero-two__text">Unlock your brand's digital potential. Partner with us for strategic digital marketing that drives results in today's competitive landscape.</p>
+                                <p className="hero-two__text">Unlock your brand&apos;s digital potential. Partner with us for strategic digital marketing that drives results in today&apos;s competitive landscape.</p>
                                 <div className="hero-two__btn wow fadeInLeft" data-wow-delay="1300ms">
                                     <a href="#services" className="nionx-btn">Get In Touch</a>
                                 </div>

@@ -22,7 +22,7 @@ export default function Home() {
     { id: 2, lebel: "About", href: "#about" },
     { id: 3, lebel: "Services", href: "#services" },
     { id: 4, lebel: "FAQs", href: "#faqs" },
-    { id: 5, lebel: "Blog", href: "#blogs" },
+    // { id: 5, lebel: "Blog", href: "#blogs" },
     { id: 6, lebel: "Contact", href: "#contacts" },
   ]
   return (
